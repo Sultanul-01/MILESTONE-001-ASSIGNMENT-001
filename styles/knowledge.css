@@ -52,6 +52,7 @@
 #banner{
     /* background-color: aqua; */
     background-image: url(../assets/hero-bg.png);
+    width: 100%;
     height: 645px;
 }
 .banner-content{
@@ -120,4 +121,46 @@
     background-color: #ffffff;
     border-color: #469165;
     color: #469165;
+}
+.section-heading{
+    text-align: center;
+    padding-top: 40px;
+}
+.section-heading h2{
+    font-size: 2.5em;
+}
+.section-heading p{
+    color: #627382;
+    margin-bottom: 50px;
+}
+.card-box{
+    display: flex;
+    max-width: 1450px;
+    gap: 24px;
+    /* background-color: #F95555; */
+    margin: 0 auto;
+}
+.flex-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 350px;
+    padding: 20px;
+    /* border: 2px solid black; */
+    border-radius: 5px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+.card-info img{
+    background-color: #F95555;
+    padding: 6px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.card-info{
+    text-align: center;
+}
+.card-info h3{
+    margin-bottom: 15px;
 }
