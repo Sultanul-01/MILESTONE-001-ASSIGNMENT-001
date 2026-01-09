@@ -182,25 +182,37 @@
     width: 600px;
     height: 600px;
 }
-.text{
+.text-second{
     width: 700px;
 }
-.text h6{
+.text-second h6{
     font-size: 16px;
     color: #469165;
 }
-.text h2{
-    font-size: 48px;
+.text-second h2{
+    font-size: 2.5em;
     font-weight: bold;
     color: #000000;
 }
-.fa-solid{
+p .fa-solid{
     color: #2e7c4f;
 }
 .txt{
     font-size: 16px;
     color: #627382;
 }
-.text p{
+.text-second p{
     color: #001931;
+}
+
+.early-access-container{
+    background-color: #F7F6F2;
+    max-width: 1450px;
+    margin: 0 auto;
+    padding: 80px 40px 80px 40px;
+    justify-content: center;
+    text-align: center;
+}
+.early-access-container h2{
+    font-size: 2.5em;
 }
